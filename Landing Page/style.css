@@ -1,0 +1,76 @@
+body
+{
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 90vh;
+    width: 50vh;
+}
+.heading
+{
+    position: relative;left: 25vh;
+    color: white;
+}
+.space
+{
+    background-color: white;
+    height: 2px;
+    width: 124vh;
+    position: relative;left:25vh;
+}
+.paragraph h3
+{
+    color: white;
+    position: relative;left: 25vh;
+}
+.paragraph p
+{
+    color: white;
+    position: relative;left: 25vh;
+    font-weight: bold;
+}
+.container
+{
+    background-color:#055d86;
+    height: 100%;
+    height: 60vh;
+    width: 60vh;
+}
+.container h2
+{
+    color: white;
+    text-align: center;
+    position: relative;top: 5vh;
+}
+.container form table
+{
+    position: relative;top: 7vh;left: 11vh;
+
+}
+.container form table input
+{
+    height: 4vh;
+    width: 35vh;
+    border-radius: 5px;
+    border: 0;
+    margin: 7px;
+}
+.container form table button
+{
+    height: 6vh;
+    width: 26vh;
+    font-size: 2vh;
+    color: white;
+    background-color: rgb(199, 131, 5);
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+.container
+{
+    position: relative;left: 89vh;bottom: 20vh;
+}
+.landingpageimg
+{
+    position: relative;bottom: 73vh;left: 12vh;
+}
