@@ -1,0 +1,36 @@
+body
+{
+    background-color: aqua;
+}
+h1
+{
+    border: 2px;
+    border-style: groove;
+    border-color: black;
+}
+#para
+{
+    background-color: rgb(255, 255, 198);
+}
+h2
+{
+    color: rgba(45, 8, 80, 0.74);
+}
+.box2
+{
+    background-color: blue;
+    height: 28vh;
+    border: 5px;
+    border-color: yellow;
+    border-style: dashed;
+    display: block;
+}
+#parasecond
+{
+    position: relative;top: 20px;
+    background-color: rgb(255, 255, 198);
+}
+#textarea-second
+{
+    position: relative;top: 15px;
+}
