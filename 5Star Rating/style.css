@@ -1,0 +1,143 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: black;
+}
+.container-rating
+{
+    background-color:rgb(18, 27, 41);
+    height: 50vh;
+    width: 56vh;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    transform: translate(130%,50%);
+    border-radius: 20px;
+}
+.star-icon
+{
+    background-color:rgb(28, 39, 58);
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100vh;
+    position: absolute;
+    left: 5vh;
+    top: 3vh;
+}
+.star-icon img
+{
+    position: absolute;
+    left: 2.3vh;
+    top: 2.1vh;
+}
+.container-rating h1
+{
+    position: absolute;
+    top: 13vh;
+    left: 5vh;
+    color: white;
+}
+.container-rating p
+{
+    position: absolute;
+    top: 20vh;
+    left: 5vh;
+    width: 45vh;
+    color: rgb(150, 150, 150);
+}
+.rating-num
+{
+    position: absolute;
+    top: 30vh;
+    left: 5vh;
+}
+.rating-num ul
+{
+    display: flex;
+}
+.rating-num ul li
+{
+    list-style: none;
+    margin: 2vh;
+    height: 5vh;
+    width: 5vh;
+    background-color:rgb(28, 39, 58);
+    font-size: 4vh;
+    text-align: center;
+    border-radius: 10vh;
+    color: rgb(150, 150, 150);
+}
+.rating-num ul li:hover
+{
+    list-style: none;
+    margin: 2vh;
+    height: 5vh;
+    width: 5vh;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    border-radius: 10vh;
+    background-color: orange;
+    cursor: pointer;
+}
+.container-rating button
+{
+    position: absolute;
+    top: 42vh;
+    left: 16vh;
+    height: 5vh;
+    width: 25vh;
+    border: 0;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+.container-rating button:hover
+{
+    background-color: white;
+    color: orange;
+}
+.container-rating button:focus
+{
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+@media screen and (max-width:768px)
+{
+    .container-rating
+    {
+        transform: translate(1%,50%);
+        height: 50vh;
+        width: 45vh;
+    }
+    .star-icon
+    {
+        left: 2vh;
+    }
+    .star-icon img
+    {
+        left: 2.7vh;
+    }
+    .container-rating h1
+    {
+        left: 3vh;
+    }
+    .container-rating p
+    {
+        left: 2vh;
+        width: 40vh;
+    }
+    .rating-num
+    {
+        left: 0.8vh;
+    }
+    .container-rating button
+    {
+        left: 11vh;
+    }
+}
